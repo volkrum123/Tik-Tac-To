@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content:center;
+    background-color: blanchedalmond;
+}
+form{
+    text-align: center;
+    background-color: #252A34;
+    font-family: "Permanent Marker",cursive;
+    width: 30%;
+    border-radius: 20px;
+    margin-top:70px;
+}
+#Players{
+    display: inline-flex;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+#P1{
+    width:120px;
+    height:70px;
+    background-color: lightblue;
+    border:2px solid blue;
+    color: white;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+#P2{
+    background-color: lightgreen;
+    border:2px solid green;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+    padding-bottom: 15px;
+    width:120px;
+    height:70px;
+    font-size: 12px;
+   }
+.cell{
+    width:75px;
+    height: 75px;
+    border:2px solid white;
+    box-shadow: 0 0 0 2px white;
+    line-height: 75px;
+    font-size:50px;
+    cursor: pointer;
+}
+#Board{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width:225px;
+    margin:auto;
+    
+}
+h2{
+    color:white;
+}
+#restartbtn{
+    width:100px;
+    height:40px;
+    background-color:#FF3860 ;
+    margin-bottom: 10px;
+    border: 1px solid #FF3860;
+    border-radius: 5px;
+    color:white;
+    font-size: 20px;
+    cursor: pointer; 
+}
+#Px{
+    color:skyblue;
+}
+#Po{
+    color:lightgreen;
+}
+   
